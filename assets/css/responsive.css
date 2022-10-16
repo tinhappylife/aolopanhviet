@@ -1,0 +1,27 @@
+@media (max-width: 740px) {
+    .header__nav{
+        display: none;
+    }
+    .header__logo{
+        display: flex;
+        margin: auto;
+    }
+    .silder__sub{
+        display: none;
+    }
+    .silder__title{
+        font-size: 1.6rem;
+    }
+    .silder__container{
+        border-top: solid 6px var(--primary-color);
+    }
+    .contact__header{
+        padding: 0px;
+    }
+    .contact__container{
+        flex-wrap: wrap;
+    }
+    .contact__container-item{
+        width: 100%;
+    }
+}

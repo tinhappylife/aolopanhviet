@@ -1,0 +1,308 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: var(--height-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    z-index: 1;
+}
+
+.header__nav {
+
+}
+
+.header__nav-list {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.header__nav-item {
+    display: inline-block;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;   
+    padding: 22px 12px;
+}
+
+.header__nav-link:hover {
+    background-color: #008F4D;
+    color: white;
+}
+
+.header__logo {
+    margin: 0 60px;
+}
+
+.header__logo-img {
+    height: var(--height-header);
+    width: 160px;
+}
+
+
+.category-name{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.silder {
+    margin-top: var(--height-header);
+}
+
+.silder__container{
+    padding-top: 48%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: solid 12px var(--primary-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.silder__content {
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 3px;
+    padding: 0 12px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.silder__title {
+    font-size: 2.6rem;
+}
+
+.silder__sub {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.silder__shirt {
+    animation: shirt 20s infinite;
+}
+
+@keyframes shirt {
+    0%{
+        background-image: url(/assets/img/áo/ao1\ \(1\).jpg);
+    }
+    20%{
+        background-image: url(/assets/img/áo/ao1\ \(1\).jpg);
+    }
+    20.01%{
+        background-image: url(/assets/img/áo/ao2\ \(1\).jpg);
+    }
+    40%{
+        background-image: url(/assets/img/áo/ao2\ \(1\).jpg);
+    }
+    40.01%{
+        background-image: url(/assets/img/áo/ao3\ \(1\).jpg);
+    }
+    60%{
+        background-image: url(/assets/img/áo/ao3\ \(1\).jpg);
+    }
+    60.01%{
+        background-image: url(/assets/img/áo/ao4\ \(1\).jpg);
+    }
+    80%{
+        background-image: url(/assets/img/áo/ao4\ \(1\).jpg);
+    }
+    80.01%{
+        background-image: url(/assets/img/áo/aotonghop0.43.jpg);
+    }
+    100%{
+        background-image: url(/assets/img/áo/aotonghop0.43.jpg);
+    }
+    
+}
+
+.silder__hat {
+    background-image: url(/assets/img/mũ/mudongman.jpg);
+}
+
+.silder__apron {
+    background-image: url(/assets/img/tapde/tapdebinbinspa043.jpg);
+}
+
+.silder__medal {
+    background-image: url(/assets/img/knc/knc\ viettienbank\ 0.43.jpg)
+}
+
+.contact {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.contact__header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.contact__container {
+    width: 100%;
+    display: flex;
+}
+
+.contact__container-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.contact__container-item-img {
+    width: 40%;
+    height: 254px;
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+.contact__container-item-img img {
+    width: 100%;
+    height: 240px;
+}
+
+.contact__container-item-infor {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+.contact__container-item-infor__name {
+    font-size: 18px;
+    margin: 0 0 20px 30px;
+    color: var(--primary-color);
+}
+
+.contact__container-item-infor__add {
+    margin-bottom: 10px;
+}
+
+.contact__container-item-infor__add span {
+    font-size: 14px;
+}
+
+.contact__container-item-infor__add i {
+    border: solid 1px #ccc;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+}
+
+.contact__container-item-infor__phone {
+    margin-bottom: 10px;
+}
+
+.contact__container-item-infor__phone span {
+    font-size: 14px;
+}
+
+.contact__container-item-infor__phone i {
+    border: solid 1px #ccc;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+}
+
+.contact__container-item-infor__paking-lot {
+    margin-bottom: 10px;
+}
+
+.contact__container-item-infor__paking-lot span {
+    font-size: 14px;
+}
+
+.contact__container-item-infor__paking-lot i {
+    border: solid 1px #ccc;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+
+.contact__container-item-infor__map {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container-item-infor__map:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.contact__container-item-infor__map span {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.contact__container-item-infor__map i {
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+}
+
+.footer {
+    padding: 64px 16px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.footer-icon__link {
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-text {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-text a {
+    margin-right: 4px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-icon__link:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
