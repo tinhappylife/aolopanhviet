@@ -100,48 +100,48 @@ html {
 
 @keyframes shirt {
     0%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao1\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao1\ \(1\).jpg);
     }
     20%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao1\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao1\ \(1\).jpg);
     }
     20.01%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao2\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao2\ \(1\).jpg);
     }
     40%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao2\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao2\ \(1\).jpg);
     }
     40.01%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao3\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao3\ \(1\).jpg);
     }
     60%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao3\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao3\ \(1\).jpg);
     }
     60.01%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao4\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao4\ \(1\).jpg);
     }
     80%{
-        background-image: url(/aolopanhhviet/assets/img/áo/ao4\ \(1\).jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/ao4\ \(1\).jpg);
     }
     80.01%{
-        background-image: url(/aolopanhhviet/assets/img/áo/aotonghop0.43.jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/aotonghop0.43.jpg);
     }
     100%{
-        background-image: url(/aolopanhhviet/assets/img/áo/aotonghop0.43.jpg);
+        background-image: url(/aolopanhviet/assets/img/áo/aotonghop0.43.jpg);
     }
     
 }
 
 .silder__hat {
-    background-image: url(/aolopanhhviet/assets/img/mũ/mudongman.jpg);
+    background-image: url(/aolopanhviet/assets/img/mũ/mudongman.jpg);
 }
 
 .silder__apron {
-    background-image: url(/aolopanhhviet/assets/img/tapde/tapdebinbinspa043.jpg);
+    background-image: url(/aolopanhviet/assets/img/tapde/tapdebinbinspa043.jpg);
 }
 
 .silder__medal {
-    background-image: url(/aolopanhhviet/assets/img/knc/knc\ viettienbank\ 0.43.jpg)
+    background-image: url(/aolopanhviet/assets/img/knc/knc\ viettienbank\ 0.43.jpg)
 }
 
 .contact {
