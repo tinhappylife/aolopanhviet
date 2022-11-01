@@ -100,16 +100,16 @@ html {
 
 @keyframes shirt {
     0%{
-        background-image: url(/assets/img/áo/ao1\ \(1\).jpg);
+        background-image: url(/aolopanhhviet/assets/img/áo/ao1\ \(1\).jpg);
     }
     20%{
-        background-image: url(/assets/img/áo/ao1\ \(1\).jpg);
+        background-image: url(/aolopanhhviet/assets/img/áo/ao1\ \(1\).jpg);
     }
     20.01%{
-        background-image: url(/assets/img/áo/ao2\ \(1\).jpg);
+        background-image: url(/aolopanhhviet/assets/img/áo/ao2\ \(1\).jpg);
     }
     40%{
-        background-image: url(/assets/img/áo/ao2\ \(1\).jpg);
+        background-image: url(/aolopanhhviet/assets/img/áo/ao2\ \(1\).jpg);
     }
     40.01%{
         background-image: url(/aolopanhhviet/assets/img/áo/ao3\ \(1\).jpg);
@@ -133,15 +133,15 @@ html {
 }
 
 .silder__hat {
-    background-image: url(/assets/img/mũ/mudongman.jpg);
+    background-image: url(/aolopanhhviet/assets/img/mũ/mudongman.jpg);
 }
 
 .silder__apron {
-    background-image: url(/assets/img/tapde/tapdebinbinspa043.jpg);
+    background-image: url(/aolopanhhviet/assets/img/tapde/tapdebinbinspa043.jpg);
 }
 
 .silder__medal {
-    background-image: url(/assets/img/knc/knc\ viettienbank\ 0.43.jpg)
+    background-image: url(/aolopanhhviet/assets/img/knc/knc\ viettienbank\ 0.43.jpg)
 }
 
 .contact {
