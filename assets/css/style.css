@@ -302,10 +302,16 @@ html {
 
 #fb-root {
  color:red;
- 
+ background-color: red;
 } 
 #fb-customerchat {
  color:red;
+ background-color: red;
+}
+
+.fb-customerchat {
+ color:red;
+ background-color: red;
 }
 
 
