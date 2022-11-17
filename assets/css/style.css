@@ -300,7 +300,13 @@ html {
     color: rgba(0, 0, 0, 0.3);
 }
 
-
+#fb-root {
+ color:red;
+ 
+} 
+#fb-customerchat {
+ color:red;
+}
 
 
 
